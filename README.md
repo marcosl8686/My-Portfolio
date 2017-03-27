@@ -1,4 +1,3 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [Agency](http://startbootstrap.com/template-overviews/agency/)
 # Marcos Lee portfolio
 
 # Live Link : https://marcosl8686.github.io/My-Portfolio/
