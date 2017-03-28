@@ -116,11 +116,7 @@
                     <h4 class="service-heading">Server Side Development</h4>
                     <ul class="text-muted hideDot"><h5>Node.Js</h5>
                         <li>Express</li>
-                        <li>REMN Stack (React.js, Express.js, MongoDB, Node.Js)</li>
-                    </ul>
-                     <ul class="text-muted hideDot"><h5>PHP</h5>
-                        <li>Laravel</li>
-                        <li>The LAMP Stack (Linux,Apache,MySQL,Node.js)</li>
+                        <li>MERN Stack (React.js, Express.js, MongoDB, Node.Js)</li>
                     </ul>
                 </div>
                 <div class="col-md-3">
@@ -176,7 +172,7 @@
                     </a>
                     <div class="portfolio-caption">
                         <h4>PopCorn Now</h4>
-                        <p class="text-muted">Git WorkFlow</p>
+                        <p class="text-muted">Movie Search</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -373,8 +369,38 @@
                     <h2 class="section-heading">Contact Me</h2>
                     <h3 class="section-subheading text-white">Email: Marcosl8686@gmail.com</h3>
                     <h3 class="section-subheading text-white">Phone#: (714)-337-3720</h3>
+                    <!-- <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div>
+                                <button type="submit" class="btn btn-xl">Send Message</button>
+                            </div>
+                        </div>
+                    </form> -->
                 </div>
             </div>
+            <br><br>
             <div class="row">
                 <div class="col-lg-12" id="contact">
                     <a href="https://github.com/marcosl8686" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
@@ -423,21 +449,22 @@
                                 <!-- Project Details Go Here -->
                                 <h2>PopCorn Now</h2>
                                 <p class="item-intro text-muted">Git WorkFlow</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/PopCorn.png" alt="PopCornNow">
-                                <p>So you feel like watching a movie, but which movie should you watch and where? No worries, oh indecisive one...PopcornNow is here to help!
-
-                                Just enter in your name, your desired genre and your location (via zipcode), and the decision is made for you! PopcornNow will return the highest rated-movie in that genre as well as basic info about that movie: poster, short synopsis, and main actors. The app will also let you know which is the closest movie theater nearby that is showing your movie and show you the theater's location on a map. You will also see the next showing times, and you're given a link to Fandango to quickly buy those tickets. Done and done!
-
-                                If the best movie for you isn't in theaters, then you're provided with a link to Amazon.
-
-                                Now for the best part: PopcornNow remembers you! Just "look up" your name, and the app recalls your preferences and gives you an updated movie recommendation.
-
-                                 Now go enjoy your popcorn and a movie!</p>
-                                <h3>Technologies Used</h3>
+                                <img class="img-responsive img-centered" src="img/portfolio/popcorn.gif" alt="PopCornNow">
                                 <ul class="hideDot">
-                                    <li>HTML, Bootstrap and CSS for the layout (incorporated template)</li>
-                                    <li>CJavascript/JQuery to dynamically update HTML based on user input</li>
-                                    <li>Lodash.js used to handle large arrays returned from APIs</li>
+                                    <h3>Movie recommendation based on Genre</h3>
+                                    <li>Intro to Firebase</li>
+                                    <li>Use of DataBase to store and retrieve user Inputs</li>
+                                    <li>Use of API to build an web application</li>
+                                </ul>
+                                <ul class="hideDot">
+                                    <h3>Technologies Used</h3>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>BootStraps</li>
+                                    <li>Javascript</li>
+                                    <li>Jquery</li>
+                                    <li>API</li>
+                                    <li>Lodash.js</li>
                                 </ul>
                                 <a href="https://marcosl8686.github.io/PopCornNow/" class="btn btn-primary" target="_blank"><span>Live Link</span></a>
                                 <a href="https://github.com/marcosl8686/PopCornNow" class="btn btn-primary" target="_blank"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
@@ -466,13 +493,21 @@
                             <div class="modal-body">
                                 <h2>Gif Search</h2>
                                 <p class="item-intro text-muted">API Search</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/API.png" alt="API">
-                                <p>Easy way to Search your favorite gif, Just search a specific topic or Keyword and enjoy!</p>
-                                <h3>Technologies Used</h3>
+                                <img class="img-responsive img-centered" src="img/portfolio/API.gif" alt="API">
                                 <ul class="hideDot">
-                                    <li>HTML, Bootstrap and CSS</li>
-                                    <li>Jquery for Dom Manipulation</li>
-                                    <li>AJAX for API GET requests</li>
+                                    <h3>Search your Favorite Gif</h3>
+                                    <li>Ajax call to retrive JSON object</li>
+                                    <li>Intro to APIs</li>
+                                    <li>Manipulating Asynchronous and Synchronous calls</li>
+                                </ul>
+                                <ul class="hideDot">
+                                    <h3>Technologies Used</h3>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>BootStraps</li>
+                                    <li>Javascript</li>
+                                    <li>Jquery</li>
+                                    <li>API</li>
                                 </ul>
                                 <a href="https://marcosl8686.github.io/APIs/" class="btn btn-primary" target="_blank"><span>Live Link</span></a>
                                 <a href="https://github.com/marcosl8686/APIs" class="btn btn-primary" target="_blank"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
@@ -502,12 +537,20 @@
                                 <!-- Project Details Go Here -->
                                  <h2>Trivia Game</h2>
                                 <p class="item-intro text-muted">Dynamic Design With Jquery</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/Trivia.png" alt="Trivia">
-                                <p>Are you a fan of One Punch Man? Challenge yourself with this Trivia Game</p>
-                                <h3>Technologies Used</h3>
+                                <img class="img-responsive img-centered" src="img/portfolio/Trivia.gif" alt="Trivia">
                                 <ul class="hideDot">
-                                    <li>HTML, Bootstrap and CSS</li>
-                                    <li>Jquery for Dom Manipulation</li>
+                                    <h3>One Punch Man Trivia Game</h3>
+                                    <li>Dynamicallty Create elements in HTML with Jquery</li>
+                                    <li>Use of Javascript Object notation</li>
+                                    <li>Intro to DOM manipulation</li>
+                                </ul>
+                                <ul class="hideDot">
+                                    <h3>Technologies Used</h3>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>BootStraps</li>
+                                    <li>Javascript</li>
+                                    <li>Jquery</li>
                                 </ul>
                                 <a href="https://marcosl8686.github.io/TriviaGame/" class="btn btn-primary" target="_blank"><span>Live Link</span></a>
                                 <a href="https://github.com/marcosl8686/TriviaGame" class="btn btn-primary" target="_blank"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
@@ -537,12 +580,20 @@
                                 <!-- Project Details Go Here -->
                                 <h2>RPG Game</h2>
                                 <p class="item-intro text-muted">Javascript and Jquery</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/RPG.png" alt="RPG">
-                                <p>Inspired by Final Fantasy, Defeat the enemy using attacks and Magic.</p>
-                                <h3>Technologies Used</h3>
+                                <img class="img-responsive img-centered" src="img/portfolio/RPG.gif" alt="RPG">
                                 <ul class="hideDot">
-                                    <li>HTML, Bootstrap and CSS</li>
-                                    <li>Jquery for Dom Manipulation</li>
+                                    <h3>RPG fight Inspired by Final Fantasy</h3>
+                                    <li>Intro to Jquery</li>
+                                    <li>Dynamically update HTML pages with the jQuery library</li>
+                                    <li>Use of Javascript Timing Event</li>
+                                </ul>
+                                <ul class="hideDot">
+                                    <h3>Technologies Used</h3>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>BootStraps</li>
+                                    <li>Javascript</li>
+                                    <li>Jquery</li>
                                 </ul>
                                 <a href="https://marcosl8686.github.io/week-4-game/" class="btn btn-primary" target="_blank"><span>Live Link</span></a>
                                 <a href="https://github.com/marcosl8686/week-4-game" class="btn btn-primary" target="_blank"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
@@ -572,11 +623,18 @@
                                 <!-- Project Details Go Here -->
                                 <h2>HangMan Game</h2>
                                 <p class="item-intro text-muted">Basic Javascript</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/HangMan.png" alt="HangMan">
-                                <p>Jigsaw has captured your love one, its up to you to play his games to save her!</p>
-                                <h3>Technologies Used</h3>
+                                <img class="img-responsive img-centered" src="img/portfolio/Hangman.gif" alt="HangMan">
                                 <ul class="hideDot">
-                                    <li>HTML, Bootstrap and CSS</li>
+                                    <h3>Jigsaw wants to play a game</h3>
+                                    <li>Intro to Javascript project</li>
+                                    <li>Use of Key Event Listeners</li>
+                                    <li>CSS for Animation Effects</li>
+                                </ul>
+                                <ul class="hideDot">
+                                    <h3>Technologies Used</h3>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>BootStraps</li>
                                     <li>Javascript</li>
                                 </ul>
                                 <a href="https://marcosl8686.github.io/Hangman-Game/" class="btn btn-primary" target="_blank"><span>Live Link</span></a>
